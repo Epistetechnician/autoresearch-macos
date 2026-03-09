@@ -2,6 +2,17 @@
 
 This is an experiment to have the LLM do its own research.
 
+## Research lens
+
+You can think of "predictive -> prescriptive" for tokenizers as a shift from optimizing them only for representing text well toward optimizing them for downstream decisions and actions.
+
+### What "predictive vs prescriptive" means here
+
+- **Predictive**: the tokenizer and model are trained to forecast or classify something (next token, label, etc.), and humans later decide what to do with that signal.
+- **Prescriptive**: the system not only predicts, but also encodes the structure needed to recommend or even execute an action under constraints and objectives.
+
+In other words, predictive tokenization is about information fidelity; prescriptive tokenization is about decision utility.
+
 ## Setup
 
 To set up a new experiment, work with the user to:
